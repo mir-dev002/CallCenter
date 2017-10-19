@@ -1,0 +1,28 @@
+<OTA_VehAvailRateRQ xmlns:ota="http://www.opentravel.org/OTA/2003/05" xmlns:utils="http://xml.apache.org/xalan/java/com.openjaw.utils.DateUtilities" MaxResponses="100">
+	<POS>
+		<Source AgentDutyCode="427800" ISOCountry="MX" ISOCurrency="MXN" PseudoCityCode="CAR" portal="FAVC">
+			<RequestorID ID="favc" Type="1" />
+			<RequestorID ID="FAVC" Type="18" />
+		</Source>
+	</POS>
+	<VehAvailRQCore Status="Available">
+		<VehRentalCore PickUpDateTime="2017-10-26T20:00:00"	ReturnDateTime="2017-10-28T22:00:00">
+			<PickUpLocation CodeContext="LocationId" LocationCode="CITY_CUN_MX" />
+			<ReturnLocation CodeContext="LocationId" LocationCode="CITY_CUN_MX" />
+		</VehRentalCore>		
+		<VehPrefs>
+			<VehPref AirConditionInd="true" AirConditionPref="Preferred" ClassPref="Preferred" TransmissionPref="Preferred" TransmissionType="Automatic" TypePref="Preferred">
+			<VehType VehicleCategory="1" />
+			<VehClass Size="1" />
+		</VehPref>
+		</VehPrefs>
+		<DriverType Age="" />
+	</VehAvailRQCore>
+	<VehAvailRQInfo>
+		<Customer>
+			<Primary>
+				<CitizenCountryName Code="MX" />
+			</Primary>
+		</Customer>
+	</VehAvailRQInfo>
+</OTA_VehAvailRateRQ>
